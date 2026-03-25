@@ -1,0 +1,55 @@
+Introduction to Python and Programming.
+
+Q1. What is Programming?
+A1. Programming is the process of giving instructions to a computer to perform
+specific tasks. It involves writing code in a programming language that the
+computer can understand and execute.
+
+Q2. Why Python?
+A2. 1. Python is a high-level, interpreted programming language known for its simplicity and readability.
+2. It is widely used in:
+3. Web Development (Django, Flask)
+4. Data Science and Machine Learning (Pandas, NumPy, TensorFlow)
+7. Automation and Scripting
+5. Game Development (Pygame)
+6. Python has a large community and extensive libraries, making it beginner-friendly.
+
+Setting Up Python and IDEs
+Installing Python
+
+1. Download Python:
+    1. Visit the official Python website: python.org.
+    2. Download the latest version for your operating system (Windows, macOS, or Linux).
+
+1. Install Python:
+    1. Run the installer and ensure you check the box to Add Python to PATH (important for running Python from the command line).
+
+1. Verify Installation:
+    1. Open a terminal or command prompt and type:
+           [ python --version ]
+    2. This should display the installed Python version (e.g., Python 3.13.5 ).
+
+Choosing an IDE
+What is an IDE?
+
+1. An Integrated Development Environment (IDE) is a software application that provides tools for writing, testing, and debugging code.
+2. Popular Python IDEs:
+3. VS Code: Lightweight, customizable, and supports extensions for Python. (We will use this one as our primary IDE)
+4. PyCharm: Powerful IDE with advanced features for professional developers.
+5. Jupyter Notebook: Great for data science and interactive coding.
+6. IDLE: Comes pre-installed with Python; good for beginners.
+
+Writing Your First Python Program.
+
+The "Hello, World!" Program
+    1. Open a folder in your VS code and type the following code in a new file named [hello.py] :
+                    [  print("Hello, World!")  ]
+    2. Make sure to save the file with a .py extension (e.g., hello.py ).
+    3. Run the program:
+    4. Use the run button at the top of your IDE or alternatively type this in your VS Code integrated terminal:
+                [   python hello.py   ]
+                Output: Hello, World!
+
+Key Takeaways:
+1. print() is a built-in function used to display output.
+2. Python code is executed line by line
