@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>messaging a flash</title>
+        <style>
+        .flash {
+            background-color: #dff0d8;
+            color: #3c763d;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #d6e9c6;
+            border-radius: 4px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Welcome to flash demo</h1>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <div class="flash">{{message}}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    <a href="{{ url_for('flash_message') }}">Click here to flash a message</a>
+</body>
+</html>
